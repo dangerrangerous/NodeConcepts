@@ -16,7 +16,7 @@ function getConnection(callback) {
 getConnection(function ( error, connection) {
 	console.log('Error:' , error.message);
 } else {
-	console.log('Connection succeded:' , connection.meesage);
+	console.log('Connection succeded:' , connection.message);
 	}
 });
 
