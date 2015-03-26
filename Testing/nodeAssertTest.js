@@ -53,3 +53,6 @@ function (err) {
   && (err.message == 'item must have id')
 });
 // this did not seem to throw the error, rather, returned 'undefined'
+// note, running this in node repl threw 0 passing. Although we will not
+// typically test using only node repl keep in mind this may be a problem 
+// with this code (for now).
