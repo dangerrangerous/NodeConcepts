@@ -1,0 +1,3 @@
+see promise.js.org/patterns/
+
+to expand upon common patterns and their uses

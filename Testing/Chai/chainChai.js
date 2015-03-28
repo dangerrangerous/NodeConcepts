@@ -2,7 +2,7 @@ var expect = require('chai').expect;
 var assert = require('chai').assert;
 
 // Some variable to assert on
-var beverages = { tea: ['chai', 'earl grey', 'chamomile'] };
+var beverages = { tea: ['chai', 'earl grey', 'jasmine'] };
 
 // assert
 assert.lengthOf(beverages.tea, 3);
